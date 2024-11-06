@@ -1,0 +1,17 @@
+{
+  "name": "websocket-express",
+  "version": "1.0.0",
+  "description": "基于 express + websocket 实现的在线聊天室",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "nodemon": "^1.19.1",
+    "ws": "^7.1.0"
+  }
+}
